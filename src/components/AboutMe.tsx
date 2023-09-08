@@ -1,4 +1,4 @@
-import { Flex, Heading, GridItem, Box, Button, Grid, Stack, HStack, SimpleGrid } from "@chakra-ui/react";
+import { Flex, Heading, GridItem, Button, Grid, Stack, HStack, SimpleGrid } from "@chakra-ui/react";
 
 // Hovering up and down animationm. 
 {/* <motion.div

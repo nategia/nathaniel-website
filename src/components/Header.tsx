@@ -1,4 +1,5 @@
 import { Button, Flex, HStack, Heading, Image, Link, Spacer } from "@chakra-ui/react";
+import Features from "../pages/features/index.page";
 
 
 function Header() {
@@ -27,6 +28,7 @@ function Header() {
           textColor='blackAlpha.900'
           _active={{ color: 'blue.500' }}
           as={Link}
+          href='src/pages/features/index.page.tsx'
           _hover={{ transform: 'translateY(-4px)', textDecoration: 'none' }}
         >
           Features
