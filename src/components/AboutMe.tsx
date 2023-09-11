@@ -18,7 +18,7 @@ function AboutMe() {
 
   return (
 
-    <SimpleGrid columns={2} gap={16}>
+    <SimpleGrid columns={[1, 1, 1, 2]} gap={16}>
       <Flex bgColor='whiteAlpha.600' p={24} h='xl' borderRadius={20} boxShadow='2xl' >
         <Stack p={8} maxW='3xl' >
           <HStack>
@@ -29,12 +29,12 @@ function AboutMe() {
 
       </Flex>
 
-      <Grid templateColumns='repeat(6, 1fr)' templateRows='repeat(6, 1fr)' gap={4} p={6}>
+      <Grid templateColumns='repeat(6, 1fr)' templateRows='repeat(6, 1fr)' gap={0} p={{ base: 8, lg: 16, xl: 20 }} alignItems='center' justifyItems='center'>
 
 
         {/* TOP */}
-        <GridItem colSpan={2} rowSpan={2} colStart={2}>
-          <Button boxSize={{ base: 20, md: 28, lg: 32, xl: 44 }} borderRadius='full' boxShadow='2xl' bgImage='/coding-logos/js-icon.svg' bgPosition='center' backgroundSize='cover'
+        <GridItem colSpan={2} rowSpan={2} colStart={2}  >
+          <Button boxSize={{ base: 12, sm: 16, md: 20, lg: 24, xl: 32 }} borderRadius='full' boxShadow='2xl' bgImage='/coding-logos/js-icon.svg' bgPosition='center' backgroundSize='cover'
             _hover={{ transform: 'translateY(-4px)', textDecoration: 'none' }}
             _active={{ bg: 'transparent' }}
           >
@@ -42,28 +42,28 @@ function AboutMe() {
 
 
         </GridItem>
-        <GridItem colSpan={2} rowSpan={2}>
-          <Button boxSize={{ base: 20, md: 28, lg: 32, xl: 44 }} borderRadius='full' boxShadow='2xl' bgImage='/coding-logos/ts-icon.svg' bgPosition='center' backgroundSize='cover'
+        <GridItem colSpan={2} rowSpan={2} >
+          <Button boxSize={{ base: 12, sm: 16, md: 20, lg: 24, xl: 32 }} borderRadius='full' boxShadow='2xl' bgImage='/coding-logos/ts-icon.svg' bgPosition='center' backgroundSize='cover'
             _hover={{ transform: 'translateY(-4px)', textDecoration: 'none' }}
           >
           </Button>
         </GridItem>
 
         {/* MID */}
-        <GridItem colSpan={2} rowSpan={2} colStart={1}>
-          <Button boxSize={{ base: 20, md: 28, lg: 32, xl: 44 }} borderRadius='full' boxShadow='2xl' bgImage='/coding-logos/react-icon.svg' bgPosition='center' backgroundSize='cover'
+        <GridItem colSpan={2} rowSpan={2} colStart={1} >
+          <Button boxSize={{ base: 12, sm: 16, md: 20, lg: 24, xl: 32 }} borderRadius='full' boxShadow='2xl' bgImage='/coding-logos/react-icon.svg' bgPosition='center' backgroundSize='cover'
             _hover={{ transform: 'translateY(-4px)', textDecoration: 'none' }}
           >
           </Button>
         </GridItem>
         <GridItem colSpan={2} rowSpan={2}>
-          <Button boxSize={{ base: 20, md: 28, lg: 32, xl: 44 }} borderRadius='full' boxShadow='2xl' bgImage='/coding-logos/nextjs-icon.svg' bgPosition='center' backgroundSize='cover'
+          <Button boxSize={{ base: 12, sm: 16, md: 20, lg: 24, xl: 32 }} borderRadius='full' boxShadow='2xl' bgImage='/coding-logos/nextjs-icon.svg' bgPosition='center' backgroundSize='cover'
             _hover={{ transform: 'translateY(-4px)', textDecoration: 'none' }}
           >
           </Button>
         </GridItem>
         <GridItem colSpan={2} rowSpan={2}>
-          <Button boxSize={{ base: 20, md: 28, lg: 32, xl: 44 }} borderRadius='full' boxShadow='2xl' bgImage='/coding-logos/jest-icon.svg' bgPosition='center' backgroundSize='cover'
+          <Button boxSize={{ base: 12, sm: 16, md: 20, lg: 24, xl: 32 }} borderRadius='full' boxShadow='2xl' bgImage='/coding-logos/jest-icon.svg' bgPosition='center' backgroundSize='cover'
             _hover={{ transform: 'translateY(-4px)', textDecoration: 'none' }}
           >
           </Button>
@@ -72,13 +72,13 @@ function AboutMe() {
         {/* BOTTOM */}
 
         <GridItem colSpan={2} rowSpan={2} colStart={2}>
-          <Button boxSize={{ base: 20, md: 28, lg: 32, xl: 44 }} borderRadius='full' boxShadow='2xl' bgImage='/coding-logos/figma-icon.svg' bgPosition='center' backgroundSize='cover'
+          <Button boxSize={{ base: 12, sm: 16, md: 20, lg: 24, xl: 32 }} borderRadius='full' boxShadow='2xl' bgImage='/coding-logos/figma-icon.svg' bgPosition='center' backgroundSize='cover'
             _hover={{ transform: 'translateY(-4px)', textDecoration: 'none' }}
           >
           </Button>
         </GridItem>
         <GridItem colSpan={2} rowSpan={2}>
-          <Button boxSize={{ base: 20, md: 28, lg: 32, xl: 44 }} borderRadius='full' boxShadow='2xl' bgImage='/coding-logos/html-icon.svg' bgPosition='center' backgroundSize='cover'
+          <Button boxSize={{ base: 12, sm: 16, md: 20, lg: 24, xl: 32 }} borderRadius='full' boxShadow='2xl' bgImage='/coding-logos/html-icon.svg' bgPosition='center' backgroundSize='cover'
             _hover={{ transform: 'translateY(-4px)', textDecoration: 'none' }}
           >
           </Button>
