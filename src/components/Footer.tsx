@@ -6,7 +6,7 @@ import Icon from "@mdi/react";
 function Footer() {
 
   return (
-    <Flex justify='center' p={6} gap={8}>
+    <Flex justify='center' p={6} gap={8} >
       <Link href="https://www.linkedin.com/in/nathaniel-giabardo-419235b8/" target="_blank" rel="noopener noreferrer">
         <Icon path={mdiLinkedin} size={2} color='black' />
       </Link>

@@ -1,11 +1,10 @@
-import { Button, Flex, HStack, Heading, Image, Link, Spacer } from "@chakra-ui/react";
-import Features from "../pages/features/index.page";
+import { Button, Flex, HStack, Heading, Link, Spacer } from "@chakra-ui/react";
 
 
 function Header() {
 
   return (
-    <Flex p={6}>
+    <Flex p={6} w='100%' >
       <Heading color='blackAlpha.900'>
         Nathaniel Codes
       </Heading>
