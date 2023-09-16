@@ -16,7 +16,7 @@ function Hero() {
       <Flex direction={isLargerThan800 ? 'row' : 'column'} p={isLargerThan800 ? 32 : 16}>
         <Stack gap={isLargerThan800 ? 6 : 4} textAlign='left' justifyItems='left'>
           <Heading fontSize='4xl'>
-            Passionate <Heading fontSize='5xl' bgGradient='linear(to-r, cyan.200, blue.500, purple.600)' bgClip='text'>front-end developer</Heading> ready to bring your ideas to life.
+            Passionate <Heading as='span' fontSize='5xl' bgGradient='linear(to-r, cyan.200, blue.500, purple.600)' bgClip='text'>front-end developer</Heading> ready to bring your ideas to life.
           </Heading>
           <Heading fontSize='2xl' >With a strong focus on user-experience and clean code.</Heading >
           <HStack spacing={4} >

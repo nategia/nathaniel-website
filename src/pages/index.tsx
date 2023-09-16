@@ -8,6 +8,7 @@ import Hero from '../components/Hero'
 import AboutMe from '../components/AboutMe';
 import HeaderDrawer from '../components/HeaderDrawer';
 import { useEffect, useState } from 'react';
+import SkillsDivider from '../components/SkillsDivider';
 
 const Home: NextPage = () => {
 
@@ -42,6 +43,8 @@ const Home: NextPage = () => {
         <Hero />
         <Spacer h={16} />
         <AboutMe />
+        <Spacer h={16} />
+        <SkillsDivider />
       </Box>
 
 
