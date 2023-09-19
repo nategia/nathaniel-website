@@ -10,6 +10,7 @@ import HeaderDrawer from "../components/HeaderDrawer";
 import { useEffect, useState } from "react";
 import SkillsDivider from "../components/SkillsDivider";
 import Testimonials from "../components/Testimonials";
+import { EmailSignUp } from "../components/EmailSignUp";
 
 const Home: NextPage = () => {
   const [isMobileView, setIsMobileView] = useState(false);
@@ -45,6 +46,8 @@ const Home: NextPage = () => {
         <SkillsDivider />
         <Spacer h={16} />
         <Testimonials />
+        <Spacer h={16} />
+        <EmailSignUp />
       </Box>
 
       <Footer />

@@ -35,11 +35,11 @@ function Testimonials() {
       h="auto"
       alignItems="center"
       justifyContent={"center"}
-      borderTopWidth={2}
-      borderTopColor="ActiveBorder"
+      // borderTopWidth={2}
+      // borderTopColor="ActiveBorder"
       borderBottomWidth={2}
       borderBottomColor="ActiveBorder"
-      p={8}
+      py={12}
     >
       <Icon
         as={FormatQuoteIcon}

@@ -37,10 +37,7 @@ function SkillsDivider() {
         alignItems="center"
         justifyContent="center"
       >
-        <Heading
-          color="blackAlpha.800"
-          fontSize={isLargerThan700 ? "6xl" : "4xl"}
-        >
+        <Heading color="blackAlpha.800" fontSize="4xl">
           My developer toolkit
         </Heading>
 

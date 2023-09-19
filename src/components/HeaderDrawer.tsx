@@ -27,8 +27,12 @@ function HeaderDrawer() {
       <IconButton
         icon={<MenuIcon />}
         aria-label="hamburger-menu-button"
-        bgGradient="linear(to-r, blue.500, purple.600)"
         onClick={onOpen}
+        borderWidth={2}
+        borderRadius={8}
+        _hover={{ transform: "translateY(-1px)", color: "#0BC5EA" }}
+        color="RGBA(0, 0, 0, 0.80)"
+        borderColor="blackAlpha.800"
       ></IconButton>
       <Drawer placement="right" onClose={onClose} isOpen={isOpen}>
         <DrawerOverlay />
