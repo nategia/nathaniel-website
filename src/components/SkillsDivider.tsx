@@ -40,7 +40,6 @@ function SkillsDivider() {
         <Heading
           color="blackAlpha.800"
           fontSize={isLargerThan700 ? "6xl" : "4xl"}
-          textAlign="center"
         >
           My developer toolkit
         </Heading>

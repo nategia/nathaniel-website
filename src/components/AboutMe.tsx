@@ -32,7 +32,7 @@ function AboutMe() {
       <Flex
         bgColor="whiteAlpha.800"
         boxShadow="lg"
-        h={isLargerThan700 ? "xl" : "auto"}
+        h="auto"
         borderRadius={20}
         direction="column"
         p={6}

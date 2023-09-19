@@ -1,18 +1,4 @@
-import {
-  Flex,
-  Heading,
-  Box,
-  Spacer,
-  Stack,
-  Button,
-  HStack,
-  VStack,
-  Grid,
-  Text,
-  useMediaQuery,
-  Circle,
-  Image,
-} from "@chakra-ui/react";
+import { Flex, Heading, Stack, Button, useMediaQuery } from "@chakra-ui/react";
 
 function Hero() {
   const [isLargerThan800] = useMediaQuery("(min-width: 800px)");
