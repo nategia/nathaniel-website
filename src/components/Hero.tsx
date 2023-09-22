@@ -1,4 +1,11 @@
-import { Flex, Heading, Stack, Button, useMediaQuery } from "@chakra-ui/react";
+import {
+  Flex,
+  Heading,
+  Stack,
+  Button,
+  useMediaQuery,
+  Box,
+} from "@chakra-ui/react";
 
 function Hero() {
   const [isLargerThan800] = useMediaQuery("(min-width: 800px)");
@@ -23,6 +30,7 @@ function Hero() {
       bgSize="cover"
       bgPosition="center"
     >
+      <Box>hi</Box>
       <Flex
         direction={isLargerThan800 ? "row" : "column"}
         p={isLargerThan800 ? 32 : 16}
